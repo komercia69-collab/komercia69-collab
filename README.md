@@ -102,6 +102,8 @@ https://github.com/komercia69-collab/responsible-ai-business-architecture
 
 I work mainly in **Russian** and **English**.
 
+I also communicate in **Ukrainian** and **German** when needed.
+
 English is used for GitHub documentation and international AI-governance discussion.
 
 ---

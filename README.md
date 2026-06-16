@@ -24,6 +24,20 @@ Responsibility must remain visible.
 
 ---
 
+## Personal context
+
+My background combines practical technical work, operational problem-solving, and lived experience with systems where decisions affect real people.
+
+I came to RABA from a practical question:
+
+```text
+How can AI help without hiding who is responsible for the final action?
+```
+
+RABA is my attempt to make that responsibility visible, traceable, and reviewable before AI-supported work becomes real-world consequence.
+
+---
+
 ## What I’m exploring
 
 - Responsible AI governance
@@ -46,6 +60,30 @@ But faster AI-supported work creates a governance question:
 ```text
 Who is responsible when AI-supported output becomes action?
 ```
+
+A basic AI-assisted workflow may look harmless:
+
+```text
+AI reads a request → prepares a recommendation → suggests an action
+```
+
+But the responsibility question begins when that output changes something:
+
+```text
+AI recommendation → payment, refusal, message, deletion, approval, status change, or external commitment
+```
+
+At that point, RABA asks:
+
+- Who approved the action?
+- Was Human Owner confirmation required?
+- What evidence was used?
+- What changed in the workflow?
+- Who owns the consequence?
+
+The goal is not to slow every action down.
+
+The goal is to keep responsibility visible where consequence begins.
 
 RABA explores how organizations can make that responsibility visible before, during, and after AI-assisted decisions.
 
@@ -118,5 +156,7 @@ I am open to thoughtful exchange around:
 - operational accountability;
 - responsibility architecture;
 - auditability and human oversight.
+
+I am especially interested in practical scenarios where AI support meets responsibility, evidence, approval, and operational control.
 
 Final architectural approval for RABA remains with the Human Owner.

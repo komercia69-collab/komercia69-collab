@@ -67,19 +67,20 @@ A basic AI-assisted workflow may look harmless:
 AI reads a request → prepares a recommendation → suggests an action
 ```
 
-But the responsibility question begins when that output changes something:
+But the responsibility question begins when that output may change something:
 
 ```text
 AI recommendation → payment, refusal, message, deletion, approval, status change, or external commitment
 ```
 
-At that point, RABA asks:
+Before AI-supported output becomes action, RABA asks:
 
-- Who approved the action?
-- Was Human Owner confirmation required?
-- What evidence was used?
-- What changed in the workflow?
-- Who owns the consequence?
+- Who is allowed to approve this action?
+- Is explicit Human Owner confirmation required before execution?
+- What evidence is sufficient to proceed?
+- What responsibility or consequence boundary is being crossed?
+- Who owns the consequence if the action is executed?
+- What trace must remain for review and audit?
 
 The goal is not to slow every action down.
 
